@@ -1,3 +1,10 @@
+#!/usr/bin/env
+use strict;
+
+use warnings;
+
+use File::Basename;
+
 #include <stdlib.h>
 
 #include <time.h>
@@ -22,7 +29,7 @@
 
 int main(void)
 
-{
+         {
 
 	 int n;
 
@@ -56,7 +63,7 @@ int main(void)
 
 				 }
 
-	      else
+             else
 
 		       {
 
