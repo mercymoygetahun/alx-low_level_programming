@@ -1,17 +1,8 @@
-#!/usr/bin/env
-use strict;
-
-use warnings;
-
-use File::Basename;
-
 #include <stdlib.h>
 
 #include <time.h>
 
 #include <stdio.h>
-
-
 
 /**
  *
