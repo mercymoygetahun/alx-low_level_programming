@@ -4,8 +4,23 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+	char ch;
+	int i;
+
+	i = 0;
+	
+	while (i < 10)
+	{
+		ch = 'a' ;
+		while(ch < = '2')
+	
+	
+	{
+		putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
+	ch++;
 }
