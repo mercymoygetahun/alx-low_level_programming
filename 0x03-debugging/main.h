@@ -1,27 +1,13 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
-#include "main.h"
 
-/**
-* main - takes a date and prints how many days are left in the year, taking
-* leap years into account
-* Return: 0
-*/
+void postive_or_negative(int i);
+int largest_number(int a, int b, int c);
+void print_remaining_days(int month, int day, int year);
+int convert_day(int month, int day);
+void print_times_table(int n);
 
-int main(void)
-{
-	int month;
-	int day;
-	int year;
+#endif /* MAIN_H */
 
-	month = 4;
-	day = 01;
-	year = 1997;
-
-	printf("Date: %02d/%02d/%04d\n", month, day, year);
-
-	day = convert_day(month, day);
-
-	print_remaining_days(month, day, year);
-
-	return (0);
-}
