@@ -1,10 +1,10 @@
 #include "main.h"
 
+
 /**
- * main - Test function for postive or negative  
+ * main - Test function for postive or negative
  * return:0
  * /
- 
 
 int main(void)
 {
@@ -15,3 +15,4 @@ postive_or_negative(i);
 
 return (0);
 }
+
